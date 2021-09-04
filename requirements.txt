@@ -1,8 +1,12 @@
-# Libraries
-tensorflow==2.4.*
+# TensorFlow Libraries
+tensorflow==2.6.*
+tensorflow-datasets
+
+# Other Libraries
 scikit-learn
 numpy==1.19.*
 matplotlib
+pandas
 
 # Linting/Tooling
 pylint
@@ -11,4 +15,3 @@ mypy
 isort
 autopep8
 pre-commit
-black
